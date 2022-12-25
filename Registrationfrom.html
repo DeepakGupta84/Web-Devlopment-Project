@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Registrationfrom</title>
+
+    </head>
+
+    <body>
+        <div class="main">
+            <h1>RegistrationForm</h1>
+            <form action="reg.html" onsubmit="return validateForm()" method="post">
+                <input type="text" class="txt" name="fname" id="fname" placeholder="Enter Your Name">
+                <span id="name"></span><br><br>
+                <input type="text" class="txt" name="age" id="age" placeholder="Enter Your Age">
+                <span id="age1"></span><br><br>
+                <input type="text" class="txt" name="location" id="location" placeholder="Enter Your Location">
+                <span id="loc"></span><br><br>
+                <input type="email" class="txt" name="email" id="email" placeholder="Enter Your Email">
+                <span id="emailid"></span><br><br>
+                <input type="password" class="txt" name="password" id="password" placeholder="Enter Your Password">
+                <span id="passwd"></span><br><br>
+                <input type="password" class="txt" name="cpassword" id="cpassword" placeholder="Confirm Your Password">
+                <span id="passwd1"></span><br><br>
+                <input type="radio" name="Gender" id="female">
+                <span id="female">Male</span>
+                <input type="radio" name="Gender" id="female">
+                <span id="female">Female</span><br><br>
+                <input type="submit" id="btn" name="Submit">
+            </form>
+        </div>
+    </body>
+
+    </html>

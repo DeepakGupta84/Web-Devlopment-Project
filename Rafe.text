@@ -1,0 +1,21 @@
+<div class="fcontainer">
+    <div class="fitem">
+      <p class="information-01">This is my first project</p>
+      <p class="information-02">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus laudantium vel dolorum deleniti doloribus,
+        eligendi deserunt impedit nisi adipisci dolor temporibus quae tempora molestias reprehenderit pariatur quaerat
+        maiores mollitia nulla perferendis magnam officia ex nobis quas. Similique, molestias ratione quas atque
+        doloribus fuga ullam adipisci? Dolor rerum itaque repudiandae adipisci facilis quis quas sed! Numquam aliquid
+        consequatur ipsum quo quod, doloribus corporis veritatis ut dignissimos facere expedita voluptas facilis
+        architecto tempora odio explicabo atque provident amet, possimus dolorum reprehenderit a soluta ducimus.
+       !</p>
+
+    </div>
+    <div class="fitem01">
+      <form class="information-03">
+        <h1 style="font-size: 38px;">Sing up</h1>
+        <input type="email" name="email" id="email" placeholder="Enter the email"><br>
+        <input type="password" name="password" id="password" placeholder="password"><br>
+        <input type="submit" name="sing in" value="Singin">
+        <input type="submit" name="login" value="Login">
+      </form>
+    </div>
